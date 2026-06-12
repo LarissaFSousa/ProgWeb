@@ -1,0 +1,25 @@
+{
+  "name": "projetos",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Israel",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --env-file=.env --import=tsx --watch src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.1",
+    "node": "^26.0.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "helmet": "^8.2.0"
+  }
+}
